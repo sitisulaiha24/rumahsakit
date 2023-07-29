@@ -47,7 +47,7 @@ else{
             <input type="text" class="form_control" name="pengobatan" id="pengobatan" value="<?php echo isset($row) ? $row['pengobatan'] : '';?>">
         </div>
         <div class="mb-3">
-        <a class="btn btn-outline-danger btn-sm float-start" href="list_rekam_medis.php">
+        <a class="btn btn-outline-danger btn-sm float-start" href="javascript:history.back()">
     <i class="fa-solid fa-chevron-left"></i>
         Kembali
     </a>

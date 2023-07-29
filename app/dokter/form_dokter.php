@@ -55,11 +55,11 @@ else{
             <input type="text" name="meracik_obat" id="meracik_obat" value="<?php echo isset($row) ? $row['meracik_obat'] : '';?>">
         </div>
         <div class="mb-3">
-        <a class="btn btn-outline-danger btn-sm float-start" href="list_dokter.php">
-    <i class="fa-solid fa-chevron-left"></i>
-        Kembali
-    </a>
-    <button class="btn btn-outline-primary btn-sm float-end" type="submit">
+        <a class="btn btn-outline-danger btn-sm float-start" href="javascript:history.back()">
+            <i class="fa-solid fa-chevron-left"></i>
+            Kembali
+            </a>
+        <button class="btn btn-outline-primary btn-sm float-end" type="submit">
             <i class="fa-regular fa-floppy-disk"></i>
             Simpan Data
         </button>
